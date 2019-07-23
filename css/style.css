@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: RobotoR;
+  src: url("../font/Roboto-Regular.woff2") format("woff2"), url("Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: RobotoBLACK;
+  src: url("../font/Roboto-Black.woff2") format("woff2"), url("Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: RobotoB;
+  src: url("../font/Roboto-Bold.woff2") format("woff2"), url("Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: RobotoM;
+  src: url("../font/Roboto-Medium.woff2") format("woff2"), url("Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: RobotoT;
+  src: url("../font/Roboto-Thin.woff2") format("woff2"), url("Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: RobotoL;
+  src: url("../font/Roboto-Light.woff2") format("woff2"), url("Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+header {
+  width: 100%;
+  height: 51px;
+  background-color: #212121;
+}
+header .menu {
+  padding: 13px 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+header .menu_link {
+  color: #ffffff;
+  font-family: RobotoL;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.container_1 {
+  width: 100%;
+  height: 750px;
+  background: url(../img/bg_header.png);
+  margin: 0 auto;
+}
+.container_1 .title_text_top {
+  text-align: center;
+  color: #fff;
+  font-family: RobotoBLACK;
+  font-size: 60px;
+}
+.container_1 .title_text_center {
+  text-align: center;
+  color: #fff;
+  font-family: RobotoB;
+  font-size: 36px;
+}
+.container_1 .title_text_bottom {
+  margin-top: 23px;
+  text-align: center;
+  color: #fff;
+  font-family: RobotoR;
+  font-size: 18px;
+}
+.container_1 .title_button {
+  margin: 0 auto;
+  margin-top: 122px;
+  width: 260px;
+  height: 65px;
+  -webkit-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  border: 0px;
+  -webkit-border-radius: 10px;
+  outline: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-family: RobotoR;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header_sidebar {
+  width: 100%;
+  height: 85px;
+  background-color: rgba(43, 44, 44, 0.6);
+}
+.header_sidebar .logo {
+  margin-top: 18px;
+  margin-bottom: 17px;
+}
+.header_sidebar .phone_text {
+  margin-top: 23px;
+  color: #ffffff;
+  font-family: RobotoL;
+  font-size: 12px;
+}
+.header_sidebar .phone_number {
+  margin-top: -21px;
+}
+.header_sidebar a {
+  color: #ffffff;
+  font-family: RobotoR;
+  font-size: 22px;
+  text-decoration: none;
+}
+.header_sidebar .headbar_button {
+  width: 172px;
+  height: 46px;
+  -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: 0px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  border-radius: 10px;
+  margin-top: 19px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-family: RobotoR;
+  font-size: 14px;
+  outline: none;
+}
+
+.advantages {
+  width: 100%;
+  height: 900px;
+}
+.advantages_text_top p {
+  color: #ffffff;
+  font-family: RobotoT;
+  font-size: 11px;
+  text-transform: uppercase;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  text-align: center;
+  margin-top: 71px;
+  padding-top: 5px;
+}
+.advantages_text_bottom p {
+  color: #222222;
+  font-family: RobotoR;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-top: 38px;
+}
+.advantages_list_info {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.advantages_icon_info {
+  width: 480px;
+  height: 170px;
+  overflow: hidden;
+}
+.advantages_icon_text_top {
+  margin-left: 138px;
+  margin-top: -118px;
+  color: #1eacc7;
+  font-family: RobotoR;
+  font-size: 15px;
+}
+.advantages_icon_text_bottom {
+  margin-left: 138px;
+  margin-top: -17px;
+  font-family: RobotoL;
+  font-size: 15px;
+  color: #202020;
+}
+.advantages .column_2 {
+  margin-left: 30px;
+}
+
+.chance {
+  text-align: center;
+  background: url(../img/chance.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 864px;
+}
+.chance_text_top {
+  padding: 6px 15px;
+  margin-top: 48px;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+}
+.chance p {
+  color: #ffffff;
+  font-family: RobotoT;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.chance_text_middle p {
+  margin-top: 38px;
+  color: #222222;
+  font-family: RobotoR;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+.chance_text_bottom p {
+  color: #222222;
+  font-family: RobotoL;
+  font-size: 17px;
+  text-transform: none;
+}
+.chance_phone_icon {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.chance_phone_icon p {
+  font-family: RobotoR;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 91px;
+}
+.chance_phone_icon_text_1 {
+  width: 320px;
+  height: 280px;
+  border: 1px solid black;
+  background: url(../img/phone_1.png);
+}
+.chance_phone_icon_text_1 img {
+  margin-top: 33px;
+}
+.chance_phone_icon_text_2 {
+  width: 320px;
+  height: 280px;
+  border: 1px solid black;
+  background: url(../img/phone_2.png);
+}
+.chance_phone_icon_text_2 img {
+  margin-top: 73px;
+}
+.chance_phone_icon_text_3 {
+  width: 320px;
+  height: 280px;
+  border: 1px solid black;
+  background: url(../img/phone_3.png);
+}
+.chance_phone_icon_text_3 img {
+  margin-top: 73px;
+}
+.chance_phone_icon_text_4 {
+  margin-top: 19px;
+  width: 320px;
+  height: 280px;
+  border: 1px solid black;
+  background: url(../img/phone_4.png);
+}
+.chance_phone_icon_text_4 img {
+  margin-top: 73px;
+}
+.chance_phone_icon_text_5 {
+  margin-top: 19px;
+  width: 320px;
+  height: 280px;
+  border: 1px solid black;
+  background: url(../img/phone_5.png);
+}
+.chance_phone_icon_text_5 img {
+  margin-top: 73px;
+}
+.chance_phone_icon_text_6 {
+  margin-top: 19px;
+  width: 320px;
+  height: 280px;
+  border: 1px solid black;
+  background: url(../img/phone_6.png);
+}
+.chance_phone_icon_text_6 img {
+  margin-top: 33px;
+}
+.chance_phone_button {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.car {
+  background: url(../img/bg_car_uberx.png);
+  height: 895px;
+  width: 100%;
+  text-align: center;
+}
+.car_text_top {
+  margin: 0 auto;
+  padding: 6px 15px;
+  margin-top: 48px;
+  width: 112px;
+  height: 24px;
+  background-color: #ffffff;
+}
+.car p {
+  color: #070716;
+  font-family: RobotoT;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.car_text_middle p {
+  color: #ffffff;
+  font-family: RobotoB;
+  font-size: 38px;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+.car_text_bottom p {
+  color: #ffffff;
+  font-family: RobotoR;
+  font-size: 17px;
+  margin-top: 19px;
+  text-transform: none;
+}
+.car_text_down_top p {
+  color: #222222;
+  font-family: RobotoL;
+  font-size: 17px;
+  text-transform: none;
+}
+.car_text_down_bottom p {
+  color: #222222;
+  font-family: RobotoL;
+  font-size: 17px;
+  text-transform: none;
+  margin-top: -16px;
+}
+.car_uberx {
+  margin-top: 56px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,320 @@
+
+*
+	margin: 0
+	padding: 0
+	
+@font-face
+	font-family: RobotoR
+	src: url('../font/Roboto-Regular.woff2') format("woff2"), url('Roboto-Regular.woff') format("woff")
+	font-weight: normal
+	font-style: normal
+
+
+@font-face
+	font-family: RobotoBLACK
+	src: url('../font/Roboto-Black.woff2') format("woff2"), url('Roboto-Black.woff') format("woff")
+	font-weight: 900
+	font-style: normal
+
+
+@font-face
+	font-family: RobotoB
+	src: url('../font/Roboto-Bold.woff2') format("woff2"), url('Roboto-Bold.woff') format("woff")
+	font-weight: bold
+	font-style: normal
+
+
+@font-face
+	font-family: RobotoM
+	src: url('../font/Roboto-Medium.woff2') format("woff2"), url('Roboto-Medium.woff') format("woff")
+	font-weight: 500
+	font-style: normal
+
+
+@font-face
+	font-family: RobotoT
+	src: url('../font/Roboto-Thin.woff2') format("woff2"), url('Roboto-Thin.woff') format("woff")
+	font-weight: 100
+	font-style: normal
+
+
+@font-face
+	font-family: RobotoL
+	src: url('../font/Roboto-Light.woff2') format("woff2"), url('Roboto-Light.woff') format("woff")
+	font-weight: 300
+	font-style: normal
+
+header
+	width: 100%
+	height: 51px
+	background-color: #212121
+	.menu
+		padding: 13px 33px
+		display: flex 
+		-webkit-justify-content: space-between
+		justify-content: space-between
+		margin: 0 auto
+	.menu_link
+		color: #ffffff
+		font-family: RobotoL
+		font-size: 15px
+		text-decoration: none
+
+.container_1
+	width: 100%
+	height: 750px
+	background: url(../img/bg_header.png)
+	margin: 0  auto
+	.title_text_top
+		text-align: center
+		color: #fff
+		font-family: RobotoBLACK
+		font-size: 60px
+	.title_text_center
+		text-align: center
+		color: #fff
+		font-family: RobotoB
+		font-size: 36px
+	.title_text_bottom
+		margin-top: 23px
+		text-align: center
+		color: #fff
+		font-family: RobotoR
+		font-size: 18px    				
+	.title_button
+		margin: 0 auto
+		margin-top: 122px
+		width: 260px
+		height: 65px
+		box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+		background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+		border: 0px
+		-webkit-border-radius: 10px
+		outline: none
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+		color: #ffffff
+		font-family: RobotoR
+		font-size: 18px
+		text-transform: uppercase
+
+.header_sidebar
+	width: 100%
+	height: 85px
+	background-color: rgba(43, 44, 44, 0.6) 
+	.logo
+		margin-top: 18px
+		margin-bottom: 17px
+	.phone_text
+		margin-top: 23px
+		color: #ffffff
+		font-family: RobotoL
+		font-size: 12px
+	.phone_number
+		margin-top: -21px
+	a
+		color: #ffffff
+		font-family: RobotoR
+		font-size: 22px
+		text-decoration: none
+	.headbar_button
+		width: 172px
+		height: 46px
+		box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+		border: 0px
+		background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+		-webkit-border-radius: 10px 
+		border-radius: 10px
+		margin-top: 19px
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+		color: #ffffff
+		font-family: RobotoR
+		font-size: 14px
+		outline: none
+
+.advantages
+	width: 100%
+	height: 900px
+	&_text_top p
+		color: #ffffff
+		font-family: RobotoT
+		font-size: 11px
+		text-transform: uppercase
+		width: 112px
+		height: 24px
+		background-color: #000000
+		text-align: center
+		margin-top: 71px
+		padding-top: 5px
+	&_text_bottom p
+		color: #222222
+		font-family: RobotoR
+		font-size: 38px
+		font-weight: 700
+		line-height: 48px
+		text-transform: uppercase
+		margin-top: 38px
+	&_list_info
+		overflow: hidden 
+		display: flex
+		-webkit-justify-content: space-around
+		justify-content: space-around
+	&_icon_info
+		width: 480px
+		height: 170px
+		overflow: hidden
+	&_icon_text_top
+		margin-left: 138px
+		margin-top: -118px
+		color: #1eacc7
+		font-family: RobotoR
+		font-size: 15px
+	&_icon_text_bottom
+		margin-left: 138px
+		margin-top: -17px
+		font-family: RobotoL
+		font-size: 15px
+		color: #202020
+	.column_2
+		margin-left: 30px
+	
+.chance
+	text-align: center
+	background: url(../img/chance.png)
+	background-repeat: no-repeat 
+	-webkit-background-size: 100% 
+	-o-background-size: 100% 
+	background-size: 100% 
+	width: 100%
+	height: 864px
+	&_text_top
+		padding: 6px 15px
+		margin-top: 48px	
+		width: 112px
+		height: 24px
+		background-color: #000000
+	p
+		color: #ffffff
+		font-family: RobotoT
+		font-size: 11px
+		text-transform: uppercase
+	&_text_middle p
+		margin-top: 38px
+		color: #222222
+		font-family: RobotoR
+		font-size: 38px
+		text-transform: uppercase
+	&_text_bottom p
+		color: #222222
+		font-family: RobotoL
+		font-size: 17px
+		text-transform: none
+	&_phone_icon
+		overflow: hidden
+		display: flex
+		margin: 0 auto
+		-webkit-justify-content: space-around
+		justify-content: space-around
+		p
+			font-family: RobotoR
+			font-size: 24px
+			color: #fff
+			margin-top: 91px
+	&_phone_icon_text
+		&_1
+			width: 320px
+			height: 280px
+			border: 1px  solid black 
+			background: url(../img/phone_1.png)
+			img
+				margin-top: 33px  
+		&_2
+			width: 320px
+			height: 280px
+			border: 1px  solid black 
+			background: url(../img/phone_2.png)
+			img
+				margin-top: 73px
+		&_3
+			width: 320px
+			height: 280px
+			border: 1px  solid black 
+			background: url(../img/phone_3.png)
+			img
+				margin-top: 73px
+		&_4
+			margin-top: 19px
+			width: 320px
+			height: 280px
+			border: 1px  solid black 
+			background: url(../img/phone_4.png)
+			img
+				margin-top: 73px
+		&_5
+			margin-top: 19px
+			width: 320px
+			height: 280px
+			border: 1px  solid black 
+			background: url(../img/phone_5.png)
+			img
+				margin-top: 73px
+		&_6
+			margin-top: 19px
+			width: 320px
+			height: 280px
+			border: 1px  solid black 
+			background: url(../img/phone_6.png)
+			img
+				margin-top: 33px  
+	&_phone_button
+		width: 30px
+		height: 30px
+		background: transparent
+		border: none
+		outline: none
+		text-align: center
+
+.car
+	background: url(../img/bg_car_uberx.png)
+	height: 895px
+	width: 100%
+	text-align: center
+	&_text_top
+		margin: 0 auto
+		padding: 6px 15px
+		margin-top: 48px	
+		width: 112px
+		height: 24px
+		background-color: #ffffff
+	p
+		color: #070716
+		font-family: RobotoT
+		font-size: 11px
+		text-transform: uppercase
+	&_text_middle p
+		color: #ffffff
+		font-family: RobotoB
+		font-size: 38px
+		text-transform: uppercase
+		margin-top: 32px
+	&_text_bottom p
+		color: #ffffff
+		font-family: RobotoR
+		font-size: 17px
+		margin-top: 19px
+		text-transform: none
+	&_text_down_top p
+		color: #222222
+		font-family: RobotoL
+		font-size: 17px
+		text-transform: none
+	&_text_down_bottom p
+		color: #222222
+		font-family: RobotoL
+		font-size: 17px
+		text-transform: none
+		margin-top: -16px
+	&_uberx
+		margin-top: 56px
+		
+
+				
